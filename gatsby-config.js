@@ -15,22 +15,26 @@ module.exports = {
       options: {
         navigation: [
           {
-            title: `Blog`,
-            slug: `/blog`,
+            // title: `Blog`,
+            // slug: `/blog`,
           },
           {
-            title: `About`,
-            slug: `/about`,
+            // title: `About`,
+            // slug: `/about`,
           },
         ],
         externalLinks: [
           {
-            name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
+            title: `Blog`,
+            slug: `/blog`,
+            // name: `Twitter`,
+            // url: `https://twitter.com/lekoarts_de`,
           },
           {
-            name: `Instagram`,
-            url: `https://www.instagram.com/lekoarts.de/`,
+            title: `About`,
+            slug: `/about`,
+            // name: `Instagram`,
+            // url: `https://www.instagram.com/lekoarts.de/`,
           },
         ],
       },
